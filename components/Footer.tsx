@@ -1,4 +1,4 @@
-// FILE 18: components/Footer.tsx — Dark footer for Osei Women's Health
+// FILE 18: components/Footer.tsx — Dark footer for Grace Women's Health
 
 import Link from 'next/link'
 import { MapPin, Phone, Clock, Facebook, Instagram, Twitter } from 'lucide-react'
@@ -34,7 +34,7 @@ export function Footer() {
               >
                 OW
               </div>
-              <span className="font-bold text-base text-white">Osei Women&apos;s Health</span>
+              <span className="font-bold text-base text-white">Grace Women&apos;s Health</span>
             </div>
             <p className="text-gray-400 text-sm mb-4 italic">
               &ldquo;Compassionate Women&apos;s Care, Every Stage of Life.&rdquo;
@@ -118,21 +118,21 @@ export function Footer() {
             <div className="flex gap-3">
               <a
                 href="#"
-                aria-label="Facebook — Osei Women's Health (DEMO)"
+                aria-label="Facebook — Grace Women's Health (DEMO)"
                 className="w-9 h-9 rounded-full bg-white/10 flex items-center justify-center hover:bg-purple-600 transition-colors duration-150"
               >
                 <Facebook className="w-4 h-4 text-white" aria-hidden="true" />
               </a>
               <a
                 href="#"
-                aria-label="Instagram — Osei Women's Health (DEMO)"
+                aria-label="Instagram — Grace Women's Health (DEMO)"
                 className="w-9 h-9 rounded-full bg-white/10 flex items-center justify-center hover:bg-purple-600 transition-colors duration-150"
               >
                 <Instagram className="w-4 h-4 text-white" aria-hidden="true" />
               </a>
               <a
                 href="#"
-                aria-label="Twitter/X — Osei Women's Health (DEMO)"
+                aria-label="Twitter/X — Grace Women's Health (DEMO)"
                 className="w-9 h-9 rounded-full bg-white/10 flex items-center justify-center hover:bg-purple-600 transition-colors duration-150"
               >
                 <Twitter className="w-4 h-4 text-white" aria-hidden="true" />
@@ -144,7 +144,7 @@ export function Footer() {
         {/* Bottom bar */}
         <div className="pt-6 flex flex-col sm:flex-row justify-between items-center gap-2 text-xs text-gray-500">
           <p>
-            &copy; {currentYear} Osei Women&apos;s Health. All rights reserved.
+            &copy; {currentYear} Grace Women&apos;s Health. All rights reserved.
           </p>
           <p className="flex flex-wrap justify-center gap-x-3 gap-y-1">
             <span>ADA Compliant</span>

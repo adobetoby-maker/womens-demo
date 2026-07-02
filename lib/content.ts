@@ -267,7 +267,7 @@ export const siteContent: SiteContent = {
     "To deliver compassionate, evidence-based women's health care that honors each patient's unique story — from her first gynecologic exam to her last hot flash and every milestone in between.",
 
   // [DEMO] replace with real patient portal URL
-  patientPortalUrl: 'https://portal.treasurevalleywomens.com',
+  patientPortalUrl: 'https://portal.gracewomenshealth.com',
 
   faq: [
     {
@@ -327,7 +327,7 @@ export const siteContent: SiteContent = {
     '@graph': [
       {
         '@type': ['MedicalOrganization', 'LocalBusiness'],
-        '@id': 'https://oseiomenshealth.com/#organization',
+        '@id': 'https://gracewomenshealth.com/#organization',
         // [DEMO] replace with real practice name
         name: "Grace Women's Health",
         medicalSpecialty: {
@@ -335,9 +335,9 @@ export const siteContent: SiteContent = {
           name: 'Obstetrics',
         },
         // [DEMO] replace with real URL
-        url: 'https://treasurevalleywomens.com',
+        url: 'https://gracewomenshealth.com',
         telephone: '(208) 555-0351',
-        email: 'hello@oseiomenshealth.com',
+        email: 'hello@gracewomenshealth.com',
         address: {
           '@type': 'PostalAddress',
           streetAddress: '3090 N Maple Grove Rd',
@@ -379,7 +379,7 @@ export const siteContent: SiteContent = {
       },
       {
         '@type': 'Physician',
-        '@id': 'https://oseiomenshealth.com/#physician',
+        '@id': 'https://gracewomenshealth.com/#physician',
         name: 'Dr. Amara N. Osei',
         honorificSuffix: 'MD, FACOG',
         medicalSpecialty: {
@@ -387,7 +387,7 @@ export const siteContent: SiteContent = {
           name: 'Obstetrics',
         },
         worksFor: {
-          '@id': 'https://oseiomenshealth.com/#organization',
+          '@id': 'https://gracewomenshealth.com/#organization',
         },
         alumniOf: [
           {
@@ -406,7 +406,7 @@ export const siteContent: SiteContent = {
       },
       {
         '@type': 'FAQPage',
-        '@id': 'https://oseiomenshealth.com/#faq',
+        '@id': 'https://gracewomenshealth.com/#faq',
         mainEntity: [
           {
             '@type': 'Question',
