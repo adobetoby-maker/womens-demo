@@ -1,4 +1,4 @@
-// FILE 17: components/Navigation.tsx — Sticky navigation for Osei Women's Health
+// FILE 17: components/Navigation.tsx — Sticky navigation for Grace Women's Health
 
 'use client'
 import { siteContent } from '@/lib/content'

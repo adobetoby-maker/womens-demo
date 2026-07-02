@@ -5,21 +5,21 @@ import Link from 'next/link'
 import { CheckCircle, Phone } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: "Conditions We Treat | OB/GYN Nampa ID | Osei Women's Health",
+  title: "Conditions We Treat | OB/GYN Nampa ID | Grace Women's Health",
   description:
     "Expert diagnosis and treatment of PCOS, endometriosis, uterine fibroids, menstrual disorders, ovarian cysts, gestational diabetes, preeclampsia, and cervical dysplasia in Nampa, ID.",
   alternates: {
-    canonical: 'https://oseiomenshealth.com/conditions',
+    canonical: 'https://gracewomenshealth.com/conditions',
   },
   openGraph: {
-    title: "Conditions We Treat | Osei Women's Health Nampa ID",
+    title: "Conditions We Treat | Grace Women's Health Nampa ID",
     description:
       "PCOS, endometriosis, fibroids, menstrual disorders, ovarian cysts, gestational diabetes, preeclampsia, cervical dysplasia — expert care in Nampa, Idaho.",
-    images: [{ url: 'https://oseiomenshealth.com/og-image.jpg' }], // [DEMO] replace with real image
+    images: [{ url: 'https://gracewomenshealth.com/og-image.jpg' }], // [DEMO] replace with real image
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Conditions We Treat | Osei Women's Health",
+    title: "Conditions We Treat | Grace Women's Health",
     description: "Comprehensive gynecologic and obstetric condition management in Nampa, Idaho.",
   },
 }
@@ -28,12 +28,12 @@ const breadcrumbSchema = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://oseiomenshealth.com' },
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://gracewomenshealth.com' },
     {
       '@type': 'ListItem',
       position: 2,
       name: 'Conditions',
-      item: 'https://oseiomenshealth.com/conditions',
+      item: 'https://gracewomenshealth.com/conditions',
     },
   ],
 }

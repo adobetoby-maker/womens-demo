@@ -1,6 +1,6 @@
 'use client'
 
-// ContactFormClient — contact form for Osei Women's Health
+// ContactFormClient — contact form for Grace Women's Health
 // [DEMO] Connect to Resend, SendGrid, Formspree, or similar before launch
 
 export function ContactFormClient() {

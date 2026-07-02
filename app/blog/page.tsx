@@ -6,21 +6,21 @@ import { Clock, CalendarDays, ChevronRight } from 'lucide-react'
 import { blogPosts } from '@/lib/blogPosts'
 
 export const metadata: Metadata = {
-  title: "Women's Health Blog | OB/GYN Nampa ID | Osei Women's Health",
+  title: "Women's Health Blog | OB/GYN Nampa ID | Grace Women's Health",
   description:
     "Expert women's health articles from Dr. Amara N. Osei, OB/GYN in Nampa, Idaho. Prenatal care, PCOS, menopause, contraception, and more — evidence-based guidance for every stage of life.",
   alternates: {
-    canonical: 'https://oseiomenshealth.com/blog',
+    canonical: 'https://gracewomenshealth.com/blog',
   },
   openGraph: {
-    title: "Women's Health Blog | Osei Women's Health",
+    title: "Women's Health Blog | Grace Women's Health",
     description:
       "Evidence-based articles on prenatal care, PCOS, menopause, and gynecologic health from Dr. Amara N. Osei.",
-    images: [{ url: 'https://oseiomenshealth.com/og-image.jpg' }], // [DEMO] replace with real image
+    images: [{ url: 'https://gracewomenshealth.com/og-image.jpg' }], // [DEMO] replace with real image
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Women's Health Blog | Osei Women's Health Nampa ID",
+    title: "Women's Health Blog | Grace Women's Health Nampa ID",
     description: "Expert OB/GYN articles from Dr. Amara N. Osei.",
   },
 }

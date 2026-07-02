@@ -99,7 +99,7 @@ export const blogPosts: BlogPost[] = [
 
 <p>Your next major milestone is the anatomy ultrasound around 20 weeks — a detailed survey of all fetal structures. Between 24 and 28 weeks, you will be screened for gestational diabetes with a glucose challenge test. At 35–37 weeks, a Group B Streptococcus swab determines whether IV antibiotics during labor are needed.</p>
 
-<p>Prenatal care is a partnership. At Osei Women's Health in Nampa, Idaho, we believe an informed patient is a confident patient. If you are newly pregnant and ready to schedule your first prenatal appointment, call us at (208) 555-0351 or book online. We are accepting new OB patients and look forward to being part of this journey with you.</p>`,
+<p>Prenatal care is a partnership. At Grace Women's Health in Nampa, Idaho, we believe an informed patient is a confident patient. If you are newly pregnant and ready to schedule your first prenatal appointment, call us at (208) 555-0351 or book online. We are accepting new OB patients and look forward to being part of this journey with you.</p>`,
   },
 
   {
@@ -179,7 +179,7 @@ export const blogPosts: BlogPost[] = [
 
 <p>PCOS is not just a reproductive condition. Women with PCOS have a 4-fold higher risk of developing type 2 diabetes and a significantly elevated risk of cardiovascular disease, endometrial cancer (from chronic anovulation and unopposed estrogen), obstructive sleep apnea, and non-alcoholic fatty liver disease. This makes ongoing monitoring and management important regardless of whether you are trying to conceive or are done with childbearing.</p>
 
-<p>Regular glucose screening, blood pressure monitoring, lipid panels, and periodic endometrial assessment (especially in women with long periods of amenorrhea) are part of comprehensive PCOS care. At Osei Women's Health in Nampa, Idaho, we treat PCOS as the lifelong condition it is — not just a fertility issue to manage during the reproductive years.</p>
+<p>Regular glucose screening, blood pressure monitoring, lipid panels, and periodic endometrial assessment (especially in women with long periods of amenorrhea) are part of comprehensive PCOS care. At Grace Women's Health in Nampa, Idaho, we treat PCOS as the lifelong condition it is — not just a fertility issue to manage during the reproductive years.</p>
 
 <p>If you have symptoms that suggest PCOS or have been told you may have it and want a thorough evaluation, call us at (208) 555-0351 or book online. Dr. Amara N. Osei offers individualized PCOS management for women in the Nampa and greater Treasure Valley area.</p>`,
   },
@@ -264,8 +264,8 @@ export const blogPosts: BlogPost[] = [
 
 <p>Menopause management is not one-size-fits-all. A 48-year-old in perimenopause with severe hot flashes, a family history negative for breast cancer, and no cardiovascular risk factors has a very different optimal treatment plan than a 58-year-old who never sought treatment and is now primarily dealing with GSM and bone density concerns.</p>
 
-<p>At Osei Women's Health in Nampa, Idaho, we begin every menopause consultation with a thorough symptom inventory — the frequency and severity of hot flashes, their impact on sleep, mood, and daily function; an assessment of vaginal and urinary symptoms; and a review of your personal and family medical history. From there, the conversation is individualized. We do not default to hormones for everyone, and we do not reflexively avoid them out of outdated fear. We go where the evidence points, tempered by what matters most to you.</p>
+<p>At Grace Women's Health in Nampa, Idaho, we begin every menopause consultation with a thorough symptom inventory — the frequency and severity of hot flashes, their impact on sleep, mood, and daily function; an assessment of vaginal and urinary symptoms; and a review of your personal and family medical history. From there, the conversation is individualized. We do not default to hormones for everyone, and we do not reflexively avoid them out of outdated fear. We go where the evidence points, tempered by what matters most to you.</p>
 
-<p>If you are navigating perimenopause or menopause and want a thoughtful, evidence-based conversation about your options, Dr. Amara N. Osei and the team at Osei Women's Health in Nampa, Idaho are here to help. Call us at (208) 555-0351 or book online to schedule a menopause consultation.</p>`,
+<p>If you are navigating perimenopause or menopause and want a thoughtful, evidence-based conversation about your options, Dr. Amara N. Osei and the team at Grace Women's Health in Nampa, Idaho are here to help. Call us at (208) 555-0351 or book online to schedule a menopause consultation.</p>`,
   },
 ]

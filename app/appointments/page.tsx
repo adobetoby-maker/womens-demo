@@ -6,21 +6,21 @@ import { CheckCircle } from 'lucide-react'
 import { AppointmentFormClient } from '@/components/AppointmentFormClient'
 
 export const metadata: Metadata = {
-  title: "Book Appointment | OB/GYN Nampa ID | Osei Women's Health",
+  title: "Book Appointment | OB/GYN Nampa ID | Grace Women's Health",
   description:
     "Schedule an appointment with Dr. Amara N. Osei, OB/GYN in Nampa, ID. New OB patients welcome. Early appointments available. Call (208) 555-0351 or book online.",
   alternates: {
-    canonical: 'https://oseiomenshealth.com/appointments',
+    canonical: 'https://gracewomenshealth.com/appointments',
   },
   openGraph: {
-    title: "Book Appointment | Osei Women's Health Nampa ID",
+    title: "Book Appointment | Grace Women's Health Nampa ID",
     description:
       "New OB patients welcome. Schedule with Dr. Amara N. Osei — board-certified OB/GYN in Nampa, Idaho.",
-    images: [{ url: 'https://oseiomenshealth.com/og-image.jpg' }], // [DEMO] replace with real image
+    images: [{ url: 'https://gracewomenshealth.com/og-image.jpg' }], // [DEMO] replace with real image
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Book Appointment | Osei Women's Health",
+    title: "Book Appointment | Grace Women's Health",
     description: "New OB patients welcome. Early appointments available. Nampa, Idaho.",
   },
 }

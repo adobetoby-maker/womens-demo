@@ -1,6 +1,6 @@
 // FILE 19: lib/siteData.ts — Practice constants for Dr. Amara N. Osei OB/GYN
 
-export const PRACTICE_NAME = "Osei Women's Health"
+export const PRACTICE_NAME = "Grace Women's Health"
 
 export const PRACTICE_PHONE = '(208) 555-0351'
 

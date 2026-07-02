@@ -36,12 +36,12 @@ export const metadata: Metadata = {
 const organizationSchema = {
   '@context': 'https://schema.org',
   '@type': ['MedicalOrganization', 'LocalBusiness'],
-  name: "Osei Women's Health",
+  name: "Grace Women's Health",
   description:
     "Board-certified OB/GYN practice in Nampa, Idaho, specializing in prenatal care, labor & delivery, minimally invasive surgery, menopause management, and comprehensive women's health.",
-  url: 'https://oseiomenshealth.com',
+  url: 'https://gracewomenshealth.com',
   telephone: '(208) 555-0351', // [DEMO] verify phone
-  email: 'hello@oseiomenshealth.com', // [DEMO] replace with real email
+  email: 'hello@gracewomenshealth.com', // [DEMO] replace with real email
   address: {
     '@type': 'PostalAddress',
     streetAddress: '3090 N Maple Grove Rd', // [DEMO] verify address

@@ -9,17 +9,17 @@ export const metadata: Metadata = {
   description:
     "Meet Dr. Amara N. Osei, MD, FACOG — board-certified OB/GYN in Nampa, Idaho. Yale School of Medicine graduate with 17 years of experience in women's health.",
   alternates: {
-    canonical: 'https://oseiomenshealth.com/about',
+    canonical: 'https://gracewomenshealth.com/about',
   },
   openGraph: {
     title: "About Dr. Amara N. Osei | OB/GYN Nampa ID",
     description:
       "17 years of experience. Yale-trained. Board-certified OB/GYN serving Nampa and the Treasure Valley.",
-    images: [{ url: 'https://oseiomenshealth.com/og-image.jpg' }], // [DEMO] replace with real image
+    images: [{ url: 'https://gracewomenshealth.com/og-image.jpg' }], // [DEMO] replace with real image
   },
   twitter: {
     card: 'summary_large_image',
-    title: "About Dr. Amara N. Osei | Osei Women's Health",
+    title: "About Dr. Amara N. Osei | Grace Women's Health",
     description: "Yale-trained, board-certified OB/GYN. 17 years of compassionate women's care.",
   },
 }
@@ -39,7 +39,7 @@ const physicianSchema = {
   },
   worksFor: {
     '@type': 'MedicalOrganization',
-    name: "Osei Women's Health",
+    name: "Grace Women's Health",
     address: {
       '@type': 'PostalAddress',
       streetAddress: '3090 N Maple Grove Rd',
@@ -63,7 +63,7 @@ const physicianSchema = {
     name: 'American College of Obstetricians and Gynecologists',
   },
   telephone: '(208) 555-0351',
-  url: 'https://oseiomenshealth.com/about',
+  url: 'https://gracewomenshealth.com/about',
 }
 
 const credentials = [

@@ -23,10 +23,10 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   }
 
   return {
-    title: `${post.title} | Osei Women's Health`,
+    title: `${post.title} | Grace Women's Health`,
     description: post.metaDescription,
     alternates: {
-      canonical: `https://oseiomenshealth.com/blog/${post.slug}`,
+      canonical: `https://gracewomenshealth.com/blog/${post.slug}`,
     },
     openGraph: {
       title: post.title,
@@ -34,7 +34,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
       type: 'article',
       publishedTime: post.date,
       authors: ['Dr. Amara N. Osei, MD, FACOG'],
-      images: [{ url: 'https://oseiomenshealth.com/og-image.jpg' }], // [DEMO] replace with real image
+      images: [{ url: 'https://gracewomenshealth.com/og-image.jpg' }], // [DEMO] replace with real image
     },
     twitter: {
       card: 'summary_large_image',
@@ -64,21 +64,21 @@ export default async function BlogPostPage({ params }: Params) {
       '@type': 'Person',
       name: 'Dr. Amara N. Osei',
       honorificSuffix: 'MD, FACOG',
-      url: 'https://oseiomenshealth.com/about',
+      url: 'https://gracewomenshealth.com/about',
       worksFor: {
         '@type': 'MedicalOrganization',
-        name: "Osei Women's Health",
-        url: 'https://oseiomenshealth.com',
+        name: "Grace Women's Health",
+        url: 'https://gracewomenshealth.com',
       },
     },
     publisher: {
       '@type': 'MedicalOrganization',
-      name: "Osei Women's Health",
-      url: 'https://oseiomenshealth.com',
+      name: "Grace Women's Health",
+      url: 'https://gracewomenshealth.com',
     },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id': `https://oseiomenshealth.com/blog/${post.slug}`,
+      '@id': `https://gracewomenshealth.com/blog/${post.slug}`,
     },
   }
 
@@ -87,13 +87,13 @@ export default async function BlogPostPage({ params }: Params) {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://oseiomenshealth.com' },
-      { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://oseiomenshealth.com/blog' },
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://gracewomenshealth.com' },
+      { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://gracewomenshealth.com/blog' },
       {
         '@type': 'ListItem',
         position: 3,
         name: post.title,
-        item: `https://oseiomenshealth.com/blog/${post.slug}`,
+        item: `https://gracewomenshealth.com/blog/${post.slug}`,
       },
     ],
   }

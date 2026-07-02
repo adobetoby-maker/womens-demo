@@ -16,21 +16,21 @@ import {
 } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: "OB/GYN Services in Nampa, ID | Osei Women's Health",
+  title: "OB/GYN Services in Nampa, ID | Grace Women's Health",
   description:
     "Comprehensive OB/GYN services in Nampa, ID — prenatal care, labor & delivery, minimally invasive surgery, menopause management, infertility evaluation, and more. Dr. Amara N. Osei.",
   alternates: {
-    canonical: 'https://oseiomenshealth.com/services',
+    canonical: 'https://gracewomenshealth.com/services',
   },
   openGraph: {
-    title: "OB/GYN Services in Nampa, ID | Osei Women's Health",
+    title: "OB/GYN Services in Nampa, ID | Grace Women's Health",
     description:
       "8 specialized OB/GYN services for every stage of a woman's life — Nampa, Idaho.",
-    images: [{ url: 'https://oseiomenshealth.com/og-image.jpg' }], // [DEMO] replace with real image
+    images: [{ url: 'https://gracewomenshealth.com/og-image.jpg' }], // [DEMO] replace with real image
   },
   twitter: {
     card: 'summary_large_image',
-    title: "OB/GYN Services | Osei Women's Health Nampa ID",
+    title: "OB/GYN Services | Grace Women's Health Nampa ID",
     description: "Prenatal care, labor & delivery, surgery, menopause management, and more.",
   },
 }
@@ -39,8 +39,8 @@ const breadcrumbSchema = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://oseiomenshealth.com' },
-    { '@type': 'ListItem', position: 2, name: 'Services', item: 'https://oseiomenshealth.com/services' },
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://gracewomenshealth.com' },
+    { '@type': 'ListItem', position: 2, name: 'Services', item: 'https://gracewomenshealth.com/services' },
   ],
 }
 
@@ -53,7 +53,7 @@ const servicesProceduresSchema = {
       description: 'Comprehensive prenatal care from first confirmation of pregnancy through delivery at West Valley Medical Center.',
       provider: {
         '@type': 'MedicalOrganization',
-        name: "Osei Women's Health",
+        name: "Grace Women's Health",
         telephone: '(208) 555-0351',
         address: {
           '@type': 'PostalAddress',
@@ -68,43 +68,43 @@ const servicesProceduresSchema = {
       '@type': 'MedicalProcedure',
       name: 'Labor & Delivery',
       description: 'Expert obstetric management of labor and delivery, including both vaginal and cesarean births.',
-      provider: { '@type': 'MedicalOrganization', name: "Osei Women's Health" },
+      provider: { '@type': 'MedicalOrganization', name: "Grace Women's Health" },
     },
     {
       '@type': 'MedicalProcedure',
       name: 'Gynecologic Exams',
       description: 'Annual well-woman exams, Pap smears, pelvic exams, and STI screening.',
-      provider: { '@type': 'MedicalOrganization', name: "Osei Women's Health" },
+      provider: { '@type': 'MedicalOrganization', name: "Grace Women's Health" },
     },
     {
       '@type': 'MedicalProcedure',
       name: 'Family Planning',
       description: 'Comprehensive contraception counseling covering all FDA-approved methods.',
-      provider: { '@type': 'MedicalOrganization', name: "Osei Women's Health" },
+      provider: { '@type': 'MedicalOrganization', name: "Grace Women's Health" },
     },
     {
       '@type': 'MedicalProcedure',
       name: 'Minimally Invasive Surgery',
       description: 'Laparoscopic and robotic-assisted procedures for endometriosis, fibroids, ovarian cysts, and more.',
-      provider: { '@type': 'MedicalOrganization', name: "Osei Women's Health" },
+      provider: { '@type': 'MedicalOrganization', name: "Grace Women's Health" },
     },
     {
       '@type': 'MedicalProcedure',
       name: 'Menopause Management',
       description: 'Evidence-based hormone therapy and non-hormonal alternatives for vasomotor symptoms, mood, and bone health.',
-      provider: { '@type': 'MedicalOrganization', name: "Osei Women's Health" },
+      provider: { '@type': 'MedicalOrganization', name: "Grace Women's Health" },
     },
     {
       '@type': 'MedicalProcedure',
       name: 'Infertility Evaluation',
       description: 'Initial fertility work-up including hormonal panels, pelvic ultrasound, and hysterosalpingography.',
-      provider: { '@type': 'MedicalOrganization', name: "Osei Women's Health" },
+      provider: { '@type': 'MedicalOrganization', name: "Grace Women's Health" },
     },
     {
       '@type': 'MedicalProcedure',
       name: 'High-Risk Pregnancy',
       description: 'Specialized management of pregnancies complicated by maternal health conditions or prior obstetric history.',
-      provider: { '@type': 'MedicalOrganization', name: "Osei Women's Health" },
+      provider: { '@type': 'MedicalOrganization', name: "Grace Women's Health" },
     },
   ],
 }

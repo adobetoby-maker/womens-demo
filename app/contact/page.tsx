@@ -6,21 +6,21 @@ import { MapPin, Phone, Clock, Mail } from 'lucide-react'
 import { ContactFormClient } from '@/components/ContactFormClient'
 
 export const metadata: Metadata = {
-  title: "Contact Us | OB/GYN Nampa ID | Osei Women's Health",
+  title: "Contact Us | OB/GYN Nampa ID | Grace Women's Health",
   description:
-    "Contact Osei Women's Health in Nampa, Idaho. Call (208) 555-0351, visit us at 3090 N Maple Grove Rd, or use our contact form. Mon–Fri 8 AM–5 PM, Sat 9 AM–12 PM.",
+    "Contact Grace Women's Health in Nampa, Idaho. Call (208) 555-0351, visit us at 3090 N Maple Grove Rd, or use our contact form. Mon–Fri 8 AM–5 PM, Sat 9 AM–12 PM.",
   alternates: {
-    canonical: 'https://oseiomenshealth.com/contact',
+    canonical: 'https://gracewomenshealth.com/contact',
   },
   openGraph: {
-    title: "Contact Osei Women's Health | OB/GYN Nampa ID",
+    title: "Contact Grace Women's Health | OB/GYN Nampa ID",
     description:
       "(208) 555-0351 | 3090 N Maple Grove Rd, Nampa, ID 83687 | Mon–Fri 8 AM–5 PM",
-    images: [{ url: 'https://oseiomenshealth.com/og-image.jpg' }], // [DEMO] replace with real image
+    images: [{ url: 'https://gracewomenshealth.com/og-image.jpg' }], // [DEMO] replace with real image
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Contact Osei Women's Health | Nampa, Idaho",
+    title: "Contact Grace Women's Health | Nampa, Idaho",
     description: "Call, visit, or send a message — we are here to help.",
   },
 }
@@ -29,12 +29,12 @@ export const metadata: Metadata = {
 const localBusinessSchema = {
   '@context': 'https://schema.org',
   '@type': ['LocalBusiness', 'MedicalOrganization'],
-  name: "Osei Women's Health",
+  name: "Grace Women's Health",
   description: "Board-certified OB/GYN practice in Nampa, Idaho specializing in prenatal care, labor and delivery, minimally invasive surgery, PCOS, menopause management, and comprehensive women's health.",
   // [DEMO] replace with real URL
-  url: 'https://oseiomenshealth.com',
+  url: 'https://gracewomenshealth.com',
   telephone: '(208) 555-0351', // [DEMO] verify phone
-  email: 'hello@oseiomenshealth.com', // [DEMO] replace with real email
+  email: 'hello@gracewomenshealth.com', // [DEMO] replace with real email
   address: {
     '@type': 'PostalAddress',
     streetAddress: '3090 N Maple Grove Rd', // [DEMO] verify address
@@ -168,11 +168,11 @@ export default function ContactPage() {
                 </h2>
                 {/* [DEMO] replace with real email */}
                 <a
-                  href="mailto:hello@oseiomenshealth.com"
+                  href="mailto:hello@gracewomenshealth.com"
                   className="text-sm font-medium hover:underline"
                   style={{ color: '#9333ea' }}
                 >
-                  hello@oseiomenshealth.com
+                  hello@gracewomenshealth.com
                 </a>
               </div>
 
