@@ -71,7 +71,7 @@ export interface SiteContent {
 
 export const siteContent: SiteContent = {
   // [DEMO] replace with real practice name
-  practiceName: "Treasure Valley Women's Health",
+  practiceName: "Grace Women's Health",
 
   tagline: "Compassionate Women's Care, Every Stage of Life.",
 
@@ -260,7 +260,7 @@ export const siteContent: SiteContent = {
 
   // [DEMO] replace with real practice story
   story:
-    "Treasure Valley Women's Health was founded on the belief that every woman deserves a physician who listens as carefully as she treats. Dr. Amara N. Osei built this practice because she saw firsthand how transformative it is for patients to feel genuinely heard — not rushed, not dismissed, not reduced to a chief complaint. From routine annual exams to complex high-risk pregnancies, we approach every visit as an opportunity to earn your trust.",
+    "Grace Women's Health was founded on the belief that every woman deserves a physician who listens as carefully as she treats. Dr. Amara N. Osei built this practice because she saw firsthand how transformative it is for patients to feel genuinely heard — not rushed, not dismissed, not reduced to a chief complaint. From routine annual exams to complex high-risk pregnancies, we approach every visit as an opportunity to earn your trust.",
 
   // [DEMO] replace with real mission statement
   mission:
@@ -305,10 +305,10 @@ export const siteContent: SiteContent = {
     'Call us or request an appointment online. New gynecology patients are typically seen within 1–2 weeks. For urgent concerns, same-day appointments are often available.',
 
   // [DEMO] replace with real hero image alt text
-  heroImageAlt: "Dr. Amara N. Osei, OB/GYN, Nampa Idaho — Treasure Valley Women's Health",
+  heroImageAlt: "Dr. Amara N. Osei, OB/GYN, Nampa Idaho — Grace Women's Health",
 
   // [DEMO] verify SEO fields before launch
-  seoTitle: "OB/GYN Nampa ID | Dr. Amara N. Osei | Treasure Valley Women's Health",
+  seoTitle: "OB/GYN Nampa ID | Dr. Amara N. Osei | Grace Women's Health",
   seoDescription:
     "Board-certified OB/GYN in Nampa, ID. Prenatal care, labor & delivery, PCOS, menopause management. Accepting new OB patients. Call (208) 555-0351.",
   seoKeywords:
@@ -329,7 +329,7 @@ export const siteContent: SiteContent = {
         '@type': ['MedicalOrganization', 'LocalBusiness'],
         '@id': 'https://oseiomenshealth.com/#organization',
         // [DEMO] replace with real practice name
-        name: "Treasure Valley Women's Health",
+        name: "Grace Women's Health",
         medicalSpecialty: {
           '@type': 'MedicalSpecialty',
           name: 'Obstetrics',

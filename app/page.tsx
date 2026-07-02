@@ -138,7 +138,7 @@ export default function HomePage() {
               id="hero-heading"
               className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-tight mb-4"
             >
-              Treasure Valley Women&apos;s Health
+              Grace Women&apos;s Health
             </h1>
 
             <p className="text-xl sm:text-2xl text-purple-200 font-medium mb-3 italic">
